@@ -207,6 +207,18 @@
         margin: 30px;
     }
 }
+@media (max-width: 380px) {
+    .headMenuBlock {
+        width: 97%;
+     }
+    #hero {
+        height: 250px;
+    }
+    .service h1 {
+        font-size: 18px;
+        margin: 12px;
+    }
+}
 
 @media (max-width: 361px) {
     .headMenuBlock a {
