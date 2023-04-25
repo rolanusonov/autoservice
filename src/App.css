@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#header {
+    background: #FFB244;
+
+}
+
+.headLog {
+    width: 50px;
+    margin: 10px 0;
+    animation: KeyLogo 5s infinite;
+ }
+@keyframes KeyLogo {
+    0%{
+        transform: rotate(10deg);
+    }
+    10%{
+        transform: rotate(-10deg);
+    }
+    20%{
+        transform: rotate(10deg);
+    }
+    30%{
+        transform: rotate(-10deg);
+    }
+    40%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    60%{
+        transform: rotate(10deg);
+    }
+    70%{
+        transform: rotate(-10deg);
+    }
+    80%{
+        transform: rotate(10deg);
+    }
+    90%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+
+
+
+}
+
+.headLogoBlock {
+    display: flex;
+    align-items: center;
+}.headLogoBlock h2 {
+     text-shadow: 5px 5px 6px rgba(0,0,0,0.66);
+}
+
+.headMenuBlock {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headMenuBlock a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: solid 1px black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 9px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 7px 9px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 7px 9px 8px 0 rgba(34, 60, 80, 0.2);
+}
+#hero{
+    background: url("./companents/img/heroImg.png")no-repeat center/cover;
+    width: 100%;
+    height: 650px;
+ }
+.buttonPos{
+    font-size: 20px;
+    padding: 10px 15px;
+    background: #FFB244;
+    position: fixed;
+    bottom: 90px;
+    right: 90px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    animation: keyButton 2s infinite;
+}
+@keyframes keyButton {
+    0%{ transform: scale(1.2)}
+    20%{transform: scale(1)}
+    40%{transform: scale(1.2)}
+    60%{transform: scale(1)}
+    80%{transform: scale(1.2)}
+    100%{transform: scale(1.2)}
+}
+.card{
+    width: 360px;
+    background: #1A283D;
+    margin: 20px ;
+}
+.card h2{
+    color: white;
+    padding:20px 0 20px 10px;
+}
+.cardImg{
+    width: 360px;
+}
+.cardBlock{
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.service h1{
+    margin: 30px;
+    text-shadow: 5px 5px 6px rgba(0,0,0,0.38);
+}
+.maps{
+    width: 100%;
+    height: 400px;
+    margin: 30px 0 0 0;
+}
+
+#schedule{
+    background: #1A283D;
+    padding: 0 0 50px 0;
+}
+.schedule h1{
+    color: white;
+    padding: 10px 0;
+}
+.schedule p{
+    color: white;
+    margin: 10px 0;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background: white;
+    margin: 20px 0;
+
+}
+@media (max-width: 1140px) {
+    .headMenuBlock a {
+        font-size: 17px;
+    }
+}
+@media (max-width: 992px) {
+    .headMenuBlock a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 756px) {
+    .headMenuBlock a {
+        font-size: 10px;
+    }
+    #hero {
+        height: 400px;
+    }
+    .buttonPos {
+        bottom: 41px;
+        right: 38px;
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        flex-direction: column;
+    }
+    .headMenuBlock {
+        width: 80%;
+        padding: 0 0 10px 0;
+    }
+    .headMenuBlock a {
+        font-size: 11px;
+    }
+    #hero {
+        height: 350px;
+    }
+}
+@media (max-width: 451px) {
+    .headMenuBlock a {
+        font-size: 9px;
+    }
+    #hero {
+        height: 300px;
+    }
+    .service h1 {
+        font-size: 25px;
+        margin: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    .headMenuBlock a {
+        font-size: 7px;
+    }
+    #hero {
+        height: 200px;
+    }
+    .service h1 {
+        font-size: 19px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
