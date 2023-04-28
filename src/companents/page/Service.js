@@ -1,5 +1,8 @@
 import React from 'react';
 import img1 from '../img/serImg1.png'
+import img2Shino from '../img/img2shino.png'
+import img3 from '../img/1991f52s-960.jpg'
+import img4 from '../img/img3.png'
 
 const Service = () => {
     return (
@@ -13,25 +16,18 @@ const Service = () => {
                             <h2>ДИАГНОСТИКА авто</h2>
                         </div>
                         <div className="card">
-                            <img src={img1} alt="" className="cardImg"/>
-                            <h2>ДИАГНОСТИКА авто</h2>
+                            <img src={img2Shino} alt="" className="cardImg"/>
+                            <h2>ШИНОМОНТАЖ</h2>
                         </div>
                         <div className="card">
-                            <img src={img1} alt="" className="cardImg"/>
-                            <h2>ДИАГНОСТИКА авто</h2>
+                            <img src={img3} alt="" className="cardImg"/>
+                            <h2>3D развал схождение</h2>
                         </div>
                         <div className="card">
-                            <img src={img1} alt="" className="cardImg"/>
-                            <h2>ДИАГНОСТИКА авто</h2>
+                            <img src={img4} alt="" className="cardImg"/>
+                            <h2>ремонт ходовой</h2>
                         </div>
-                        <div className="card">
-                            <img src={img1} alt="" className="cardImg"/>
-                            <h2>ДИАГНОСТИКА авто</h2>
-                        </div>
-                        <div className="card">
-                            <img src={img1} alt="" className="cardImg"/>
-                            <h2>ДИАГНОСТИКА авто</h2>
-                        </div>
+
 
                     </div>
                 </div>
